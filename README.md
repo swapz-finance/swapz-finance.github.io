@@ -2,9 +2,9 @@
 
 # SWAPZ Cryptocurrency Payment System
 
-### [Documentation](https://triveacademy.github.io/swapz-documentation/)
+### [Documentation](https://docs.swapz.finance)
 
-- [Introduction](https://triveacademy.github.io/swapz-documentation/#/Introduction.md) 
-- [DAPP Integration](https://triveacademy.github.io/swapz-documentation/#/DappIntegration.md)
-- [Code List](https://triveacademy.github.io/swapz-documentation/#/CodeList.md)   
-- [Asset](https://triveacademy.github.io/swapz-documentation/#/Asset.md)
+- [Introduction](https://docs.swapz.finance/#/Introduction.md) 
+- [DAPP Integration](https://docs.swapz.finance/#/DappIntegration.md)
+- [Code List](https://docs.swapz.finance/#/CodeList.md)   
+- [Asset](https://docs.swapz.finance/#/Asset.md)
