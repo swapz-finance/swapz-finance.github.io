@@ -24,6 +24,7 @@ Please refer to [Backend Post Feature](#backend-post-feature).
 
 ## API Signature Authentication
 Please go through the following steps at the DAPP's payment status receiving page (Response URL) to ensure the security:
+- Check the HTTP_REFERER value is from https://swapz.finance.com (only applicable if the DAPP website is working with SSL Certificate).
 - Check the payment amount from SWAPZ is match with yours.
 - Verify the signature from SWAPZ with the [Public Key given by SWAPZ](Introduction.md#pre-requisite-of-dapp-integration).
 
@@ -280,7 +281,10 @@ ELSE {
 **Note:** You may implement this in any way you want as long as the implementation serves the same purpose.
 
 ## Re-query Payment Status Feature
+Re-query Payment Status Feature allow DAPP to re-query payment status from SWAPZ when to re-confirm the payment status. 
 
+This feature can be implemented in the scenario below: 
+- Every transaction will timeout in 5 minutes. DAPP may re-query for the payment status after 5 minutes if DAPP do not receive any response from [Response URL](#payment-response) or  [Backend POST Feature](#backend-post-feature).
 ### Implementation
 
 **HTTP Request:**  
@@ -318,6 +322,3 @@ ELSE {
 |21010|Record not found|
 |21011|Invalid Amount|
 |21012|Payment failed|
-
-
-### Sample Source Code in PHP
