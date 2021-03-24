@@ -19,7 +19,7 @@ DAPP request SWAPZ for payment. SWAPZ will create a transaction and redirect cus
 |amount|string|Yes|-|Payment amount without formatting (i.e. thousand separator, decimals)<br/>**Example:**<br/>Before: 120.50 USDT<br/>After: 120500000<br/>(USDT has 6 divisibility)|
 |tokenId|string|Yes|-|Cryptocurrency ID. Refer [Token List](CodeList.md#chain-&-token)|
 |chain|string|Yes|-|The chain of selected cryptocurrency (tokenId). Refer [Token List](CodeList.md#chain-&-token)|
-|productDEsc|string|No|`''`|Product/transaction description|
+|productDesc|string|No|`''`|Product/transaction description|
 |userName|string|No|`''`|Customer name|
 |userEmail|string|No|`''`|Customer email|
 |userContactNo|string|No|`''`|Customer contact number. If `userContactNo` is provided, `userCountryCode` must be provided as well.|
