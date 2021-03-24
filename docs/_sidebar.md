@@ -1,5 +1,5 @@
 - [HOME](/)
 - [Introduction](Introduction.md)
-- [DAPP Integration](DappIntegration.md)
+- [Customer Payment](CustomerPayment.md)
 - [Code List](CodeList.md)   
 - [Asset](Asset.md)

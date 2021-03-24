@@ -5,7 +5,8 @@
 <h3>Documentation</h3>
 
 - [Introduction](Introduction.md)
-- [DAPP Integration](DappIntegration.md)
+- [Integration](Integration.md)
+- [Customer Payment](CustomerPayment.md)
 - [Code List](CodeList.md)   
 - [Asset](Asset.md)
 

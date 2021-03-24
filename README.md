@@ -5,6 +5,7 @@
 ### [Documentation](https://docs.swapz.finance)
 
 - [Introduction](https://docs.swapz.finance/#/Introduction.md) 
-- [DAPP Integration](https://docs.swapz.finance/#/DappIntegration.md)
+- [Integration](https://docs.swapz.finance/#/Integration.md)
+- [Customer Payment](https://docs.swapz.finance/#/CustomerPayment.md)
 - [Code List](https://docs.swapz.finance/#/CodeList.md)   
 - [Asset](https://docs.swapz.finance/#/Asset.md)
