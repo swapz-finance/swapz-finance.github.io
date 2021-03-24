@@ -1,5 +1,6 @@
 - [HOME](/)
 - [Introduction](Introduction.md)
+- [Integration](Introduction.md)
 - [Customer Payment](CustomerPayment.md)
 - [Code List](CodeList.md)   
 - [Asset](Asset.md)
