@@ -17,8 +17,8 @@ DAPP request SWAPZ for payment. SWAPZ will create a transaction and redirect cus
 |signature|string|Yes|-|Refer [API Signature Authentication](#api-signature-authentication)|
 |orderId|string|Yes|-|Unique DAPP Order/Transaction ID|
 |amount|string|Yes|-|Payment amount without formatting (i.e. thousand separator, decimals)<br/>**Example:**<br/>Before: 120.50 USDT<br/>After: 120500000<br/>(USDT has 6 divisibility)|
-|tokenId|string|Yes|-|Cryptocurrency ID. Refer [Token List](CodeList.md#chain-&-token)|
-|chain|string|Yes|-|The chain of selected cryptocurrency (tokenId). Refer [Token List](CodeList.md#chain-&-token)|
+|tokenId|string|Yes|-|Cryptocurrency ID. Refer [Token List](CodeList.md#token)|
+|chain|string|Yes|-|The chain of selected cryptocurrency (tokenId). Refer [Token List](CodeList.md#token)|
 |productDesc|string|No|`''`|Product/transaction description|
 |userName|string|No|`''`|Customer name|
 |userEmail|string|No|`''`|Customer email|
@@ -75,7 +75,7 @@ After customer complete the payment on SWAPZ website, SWAPZ will return the paym
 |signature|string|Yes|Refer [API Signature Authentication](#api-signature-authentication)|
 |orderId|string|Yes|Unique DAPP transaction ID|
 |amount|string|Yes|Payment amount without formatting (i.e. thousand separator, decimals)<br/>**Example:** 120500000<br/>(USDT has 6 divisibility)|
-|tokenId|string|Yes|Digital asset symbol. Refer [Token List](CodeList.md#chain-&-token)|
+|tokenId|string|Yes|Digital asset symbol. Refer [Token List](CodeList.md#token)|
 |remark|string|No|DAPP remarks|
 |transId|string|Yes|SWAPZ Transaction ID|
 |status|string|Yes|Payment Status. Refer [Return Code List](CodeList.md#return-code)|

@@ -11,7 +11,15 @@
 Customer contact number must comes with country code in [Payment Request](CustomerPayment.md#payment-request). We suggest using [libphonenumber](https://github.com/google/libphonenumber), a phone number parser by Google to parse customer's contact number and obtain the contact country code. The **ONLY** country code format accepted is [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). You may checkout their [Github](https://github.com/google/libphonenumber).
 
 
-## Chain & Token
+## Chain
+
+|`chain`|Name|
+|-|-|
+|btc|Bitcoin|
+|eth|Ethereum|
+|bsc|Binance Smart Chain|
+
+## Token
 
 |`tokenId`|Token|`chain` available|Divisibility|
 |-|-|-|-|
