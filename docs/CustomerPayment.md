@@ -8,7 +8,7 @@
 2. DAPP generate all the payment details and signature with the Private Key saved previously in [Pre-requisite of DAPP Integration](#pre-requisite-of-dapp-integration).
 3. DAPP sends HTTPS POST Request (Payment Request URL) containing payment details (parameters) and signature to SWAPZ.
 4. SWAPZ perform verification and redirect Customer to SWAPZ's payment page.
-5. Customer required to login to SWAPZ account for the payment.
+5. Customer login to the SWAPZ account that is going to pay for the payment.
 6. Customer confirms the payment.
 7. Customer views the payment status & details.
 8. SWAPZ returns the payment status to DAPP by sending HTTPS POST Request (Response URL) with the payment details (parameters) including a signature.

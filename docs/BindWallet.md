@@ -9,7 +9,7 @@ You may allow your customer to bind their account with SWAPZ to utilize the APIs
 1. Customer decide to bind wallet.
 2. DAPP generate bind wallet [query parameters](#implementation).
 3. DAPP redirect the customer to [SWAPZ bind wallet page](#implementation) with the generated query parameters.
-4. Customer required to login to the SWAPZ account he/she wanted to bind with.
+4. Customer login or switch to the SWAPZ account he/she wanted to bind with.
 5. Customer confirms bind wallet.
 6. SWAPZ generate a unique JWT for this customer.
 7. SWAPZ redirect customer back to DAPP website with the URL provided in the query parameter `redirect` with the JWT provided.
