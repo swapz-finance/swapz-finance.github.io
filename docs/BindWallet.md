@@ -7,20 +7,20 @@ You may allow your customer to bind their account with SWAPZ to utilize the feat
 
 ## Processing Step
 1. Customer decide to bind wallet.
-2. DAPP generate bind wallet query parameters.
-3. DAPP redirect the customer to SWAPZ bind wallet page with the query parameters.
+2. DAPP generate bind wallet [query parameters](#implementation).
+3. DAPP redirect the customer to [SWAPZ bind wallet page](#implementation) with the generated query parameters.
 4. Customer required to login to the SWAPZ account he/she wanted to bind with.
 5. Customer confirms bind wallet.
 6. SWAPZ generate a unique JWT for this customer.
 7. SWAPZ redirect customer back to DAPP website with the URL provided in the query parameter `redirect` with the JWT provided.
-8. DAPP retrieve the JWT from the query parameter.
-9. DAPP verify customer's SWAPZ details and record them in the database.
+8. DAPP retrieve the [JWT](#bind-wallet-return) from the query parameter.
+9. DAPP [verify](#get-customers-swapz-detail) customer's SWAPZ details and record necessary data in the database.
 10. Lastly, DAPP navigates customer to the designated page.
 
 
 ### Important informations
 - One SWAPZ account can only bind with one account in the same DAPP.
-- In step 4, if the customer login to an account that is already bound with one of your DAPP's customer account, the customer data you receive in step 9 will belongs to the bound account. Therefore, DAPP must verify that the `userDappToken` is new and unique.
+- In step 4, if the customer login to an account that is already bound with one of your DAPP's customer account, the customer data you receive in step 9 will belongs to the bound account. Therefore, DAPP must verify that the [`userDappToken`](#get-customers-swapz-detail) is new and unique.
 
 
 ## Bind Wallet URL
