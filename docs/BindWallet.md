@@ -29,8 +29,8 @@ All you need to do here is to redirect customer to SWAPZ bind wallet page with t
 ### Implementation
 
 **Example URL**
-Production: https://swapz.finance/bindwallet?redirect=https://superweb.com/profile&H4gyoS8bYnUZRwuzwenA=2531280552858748517 
 
+Production: https://swapz.finance/bindwallet?redirect=https://superweb.com/profile&H4gyoS8bYnUZRwuzwenA=2531280552858748517 <br/>
 Staging: https://staging.swapz.finance/bindwallet?redirect=https://superweb.com/profile&H4gyoS8bYnUZRwuzwenA=2531280552858748517
 
 **Parameter (Query)**
