@@ -7,6 +7,7 @@
 - [Introduction](Introduction.md)
 - [Integration](Integration.md)
 - [Customer Payment](CustomerPayment.md)
+- [Bind Wallet](BindWallet.md)
 - [Code List](CodeList.md)   
 - [Asset](Asset.md)
 
