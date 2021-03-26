@@ -8,5 +8,6 @@
 - [Integration](https://docs.swapz.finance/#/Integration.md)
 - [Customer Payment](https://docs.swapz.finance/#/CustomerPayment.md)
 - [Bind Wallet](https://docs.swapz.finance/#/BindWallet.md)
+- [Other APIs & Features](https://docs.swapz.finance/#/Swagger.md)
 - [Code List](https://docs.swapz.finance/#/CodeList.md)   
 - [Asset](https://docs.swapz.finance/#/Asset.md)
