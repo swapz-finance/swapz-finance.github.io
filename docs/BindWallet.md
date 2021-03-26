@@ -1,6 +1,6 @@
 # Bind Wallet
 
-You may allow your customer to bind their account with SWAPZ to utilize the features provided by SWAPZ such as acquiring customer's details such as email address and CeFi Wallet addresses.
+You may allow your customer to bind their account with SWAPZ to utilize the APIs & features provided by SWAPZ. Besides, you may treat this as a login feature as well.
 
 ## Flowchart
 <img src="./assets/bindWalletFlowchart.svg" alt="bind wallet flow chart">
@@ -29,12 +29,14 @@ All you need to do here is to redirect customer to SWAPZ bind wallet page with t
 ### Implementation
 
 **Example URL**
-Production: https://swapz.finance/bindwallet?redirect=https://superweb.com/profile&H4gyoS8bYnUZRwuzwenA=2531280552858748517
+Production: https://swapz.finance/bindwallet?redirect=https://superweb.com/profile&H4gyoS8bYnUZRwuzwenA=2531280552858748517 
+
 Staging: https://staging.swapz.finance/bindwallet?redirect=https://superweb.com/profile&H4gyoS8bYnUZRwuzwenA=2531280552858748517
 
 **Parameter (Query)**
+
 |Parameter|Mandatory|Description|
-|--- |---|--- |
+|--- |--- |--- |
 |redirect|Yes|URL that SWAPZ will be using to navigate customer after customer confirmed bind wallet or any error occurred|
 |H4gyoS8bYnUZRwuzwenA|Yes|DAPP ID. This decides the DAPP that the customer is binding with. DAPP ID can be found in [SWAPZ My DAPP Page](https://swapz.finance/app/mydapp)|
 
@@ -42,6 +44,7 @@ Staging: https://staging.swapz.finance/bindwallet?redirect=https://superweb.com/
 Customer will be redirected to the URL provided in the query parameter in [Bind Wallet URL](#implementation). If the bind wallet process success, a unique JWT will be returned in the query parameter.
 
 **Parameter (Query)**
+
 |Parameter|Mandatory|Description|
 |--- |---|--- |
 |nFHRy2gcdlkJxCGEykk2|Yes|A unique JWT that allows DAPP to query for customer's SWAPZ details|
@@ -57,16 +60,19 @@ DAPP should store the data acquired from this API instead of the [JWT](#bind-wal
 
 
 **Parameter (Headers)**
+
 |Parameter|Mandatory|Description|
 |--- |---|--- |
 |authorization|Yes|The JWT DAPP retrieve from [Bind Wallet Return](#bind-wallet-return)|
 
 **Parameter (Query)**
+
 |Parameter|Mandatory|Description|
 |--- |---|--- |
 |dappId|Yes|DAPP ID can be found in [SWAPZ My DAPP Page](https://swapz.finance/app/mydapp)|
 
 **Response:**  
+
 |Parameter|Data Type|Description|
 |--- |---|--- |
 |email|string|Customer's SWAPZ email|
