@@ -15,9 +15,11 @@ DAPP can perform decentralized transaction by navigating customer to SWAPZ's con
 5. Customer confirms to broadcast the transaction to call the contract.
 6. SWAPZ process and broadcast the transaction.
 7. SWAPZ display the result. If the result is success, SWAPZ will display the transaction hash.
-8. SWAPZ redirect customer back to DAPP website with the URL provided in query parameter `returnUrl` with the result and transaction hash (if success = true).
+8. SWAPZ redirect customer back to DAPP website with the URL provided in query parameter [`returnUrl`](#implementation) with the result and transaction hash (if success = true).
 9. DAPP perform any updates based on the result.
 10. DAPP display the result or updates.
+
+### Implementation
 
 **Example URL**
 
