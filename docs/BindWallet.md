@@ -37,7 +37,7 @@ Staging: https://staging.swapz.finance/bindwallet?redirect=https://superweb.com/
 
 |Parameter|Mandatory|Description|
 |--- |--- |--- |
-|redirect|Yes|URL that SWAPZ will be using to navigate customer after customer confirmed bind wallet or any error occurred|
+|redirect|Yes|URL that SWAPZ will be using to navigate customer after the process in SWAPZ is done|
 |H4gyoS8bYnUZRwuzwenA|Yes|DAPP ID. This decides the DAPP that the customer is binding with. DAPP ID can be found in [SWAPZ My DAPP Page](https://swapz.finance/app/mydapp)|
 
 ## Bind Wallet Return
@@ -47,7 +47,7 @@ Customer will be redirected to the URL provided in the query parameter in [Bind 
 
 |Parameter|Mandatory|Description|
 |--- |---|--- |
-|nFHRy2gcdlkJxCGEykk2|Yes|A unique JWT that allows DAPP to query for customer's SWAPZ details|
+|nFHRy2gcdlkJxCGEykk2|No|A unique JWT that allows DAPP to query for customer's SWAPZ details|
 
 
 ## Get Customer's SWAPZ detail

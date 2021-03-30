@@ -9,6 +9,7 @@
 - [Customer Payment](CustomerPayment.md)
 - [Bind Wallet](BindWallet.md)
 - [Other APIs & Features](Swagger.md)
+- [DeFi Wallet](DeFiWallet.md)
 - [Code List](CodeList.md)   
 - [Asset](Asset.md)
 
